@@ -10,7 +10,6 @@ public:
             forditott = (forditott * 10) + (x % 10);
             x /= 10;
         }
-        if(eredeti == forditott){return true;}
-        return false;
+        return eredeti == forditott;
     }
 };
